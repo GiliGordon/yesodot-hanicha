@@ -131,7 +131,7 @@ export default {
   height: 100vh;
   font-family: "Heebo";
   background-color: #ebebeb;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 #icon-bahadim {
@@ -146,7 +146,7 @@ export default {
 
 #icon-til {
   /* min-width: 20px; */
-  max-height: 10%;
+  /* max-height: 10%; */
   max-width: 90px;
   position: absolute;
   bottom: 0;
